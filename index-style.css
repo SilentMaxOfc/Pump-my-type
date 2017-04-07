@@ -29,6 +29,7 @@ nav a {
   font-size:1em;
   margin:0 3.5%;
   z-index:2;
+  line-height: 2.5em;
 }
 nav a:hover {
   text-decoration:underline;
@@ -95,12 +96,18 @@ nav a:hover {
   color:#222222;
 }
 .about {
-  width:42%;
+  width:100%;
   display:inline-block;
   font-size:1.2em;   
   color:#222222;
   text-align:justify;
   vertical-align:top;
+  line-height: 2.5em;
+}
+@media only screen and (min-width: 768px) {
+    .about {
+        width: 42%
+    }
 }
 .about-first {
   margin-right:30px;
@@ -145,7 +152,7 @@ nav a:hover {
 }
 .tw {
   background:#e73c42 url(img/tw-ic.png) no-repeat 50% 50%;
-  margin-right:27%;
+  margin-right:5%;
 }
 .tw:hover {
   background:transparent url(img/tw-ic-hover.png) no-repeat 50% 50%;
@@ -157,8 +164,9 @@ nav a:hover {
   background:transparent url(img/inst-ic-hover.png) no-repeat 50% 50%;
 }
 .wrapper {
-  width:225px;
+  width:100%;
   margin:0 auto;
+  text-align: center;
 }
 footer {
   padding:35px 12%;
@@ -169,7 +177,21 @@ footer {
   text-transform:uppercase;
   float:left;
 }
+@media only screen and (max-width: 768px) {
+    .author {
+    margin-bottom: 3%;
+    display: block;
+    float:inherit;
+}
+}
 .copy {
   float:right;
   text-transform:uppercase;
+}
+@media only screen and (max-width: 768px) {
+    .copy {
+    margin-top: 3%;
+    display: block;
+    float:inherit;
+}
 }
