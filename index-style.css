@@ -96,21 +96,19 @@ nav a:hover {
   color:#222222;
 }
 .about {
-  width:100%;
+  width:90%;
   display:inline-block;
   font-size:1.2em;   
   color:#222222;
   text-align:justify;
   vertical-align:top;
   line-height: 2.5em;
+margin:1.%
 }
 @media only screen and (min-width: 768px) {
     .about {
         width: 42%
     }
-}
-.about-first {
-  margin-right:30px;
 }
 .third-screen {
   padding:35px 12%;
