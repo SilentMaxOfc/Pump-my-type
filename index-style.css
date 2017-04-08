@@ -34,7 +34,7 @@ nav a {
 nav a:hover {
   text-decoration:underline;
 }
-.main-text {
+h1 {
   font-size:4em;
   color:white;
   font-weight:bold;
@@ -103,7 +103,7 @@ nav a:hover {
   text-align:justify;
   vertical-align:top;
   line-height: 2.5em;
-margin:1.%
+  margin:1%;
 }
 @media only screen and (min-width: 768px) {
     .about {
@@ -113,7 +113,7 @@ margin:1.%
 .third-screen {
   padding:35px 12%;
 }
-.big {
+h2 {
   text-align:center;
   display:block;
   font-size:3em;
@@ -163,7 +163,7 @@ margin:1.%
 }
 .wrapper {
   width:100%;
-  margin:0 auto;
+  margin:5% auto;
   text-align: center;
 }
 footer {
